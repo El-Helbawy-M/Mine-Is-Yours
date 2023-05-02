@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/routers/navigator.dart';
-import 'package:flutter_project_base/routers/routers.dart';
-import 'package:flutter_project_base/services/more/widgets/report_issue_bottomsheet.dart';
+import 'package:read_share_box/services/more/widgets/report_issue_bottomsheet.dart';
 
+import '../../../routers/navigator.dart';
+import '../../../routers/routers.dart';
 import 'more_option.dart';
 
 class MoreOptions extends StatelessWidget {
@@ -36,7 +36,7 @@ class MoreOptions extends StatelessWidget {
         ),
         MoreOption(
           icon: "shop",
-          title: "MUS Store",
+          title: "Read Share Box Store",
           onTap: () => CustomNavigator.push(Routes.musStore),
         ),
         MoreOption(

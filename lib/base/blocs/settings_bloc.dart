@@ -1,10 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_project_base/base/models/settings_model.dart';
-import 'package:flutter_project_base/config/app_states.dart';
-import 'package:flutter_project_base/handlers/localization_handler.dart';
-import 'package:flutter_project_base/handlers/shared_handler.dart';
-import 'package:flutter_project_base/routers/navigator.dart';
+import '../../config/app_states.dart';
+import '../../handlers/localization_handler.dart';
+import '../../handlers/shared_handler.dart';
+import '../../routers/navigator.dart';
 import '../../utilities/theme/colors.dart';
+import '../models/settings_model.dart';
 
 class SettingsBloc extends Cubit<AppStates> {
   SettingsBloc() : super(Start());

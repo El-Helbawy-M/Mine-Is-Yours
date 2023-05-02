@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:flutter_project_base/handlers/permission_handler.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:read_share_box/handlers/permission_handler.dart';
 
 class ImagePickerHandler {
   ImagePicker _picker = ImagePicker();

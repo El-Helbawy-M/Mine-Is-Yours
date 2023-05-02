@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_project_base/config/app_states.dart';
-import 'package:flutter_project_base/debug/log_printer.dart';
+
+import '../../../../config/app_states.dart';
+import '../../../../debug/log_printer.dart';
 
 class RegisterCubit extends Cubit<AppStates> {
   RegisterCubit() : super(Start());

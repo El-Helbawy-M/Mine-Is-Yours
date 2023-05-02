@@ -1,11 +1,11 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/handlers/image_picker_handler.dart';
-import 'package:flutter_project_base/utilities/components/custom_btn.dart';
-import 'package:flutter_project_base/utilities/theme/media.dart';
 
 import '../../../handlers/icon_handler.dart';
+import '../../../handlers/image_picker_handler.dart';
+import '../../../utilities/components/custom_btn.dart';
+import '../../../utilities/theme/media.dart';
 
 class ImageInputField extends StatefulWidget {
   const ImageInputField({

@@ -1,6 +1,5 @@
 import 'dart:developer';
 
-import 'package:flutter_project_base/debug/log_printer.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class PermissionHandler {

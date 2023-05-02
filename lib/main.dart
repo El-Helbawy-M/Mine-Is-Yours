@@ -1,21 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_project_base/base/blocs/settings_bloc.dart';
-import 'package:flutter_project_base/config/app_states.dart';
-import 'package:flutter_project_base/handlers/shared_handler.dart';
-import 'package:flutter_project_base/network/network_handler.dart';
-import 'package:flutter_project_base/routers/navigator.dart';
-import 'package:flutter_project_base/routers/routers.dart';
-import 'package:flutter_project_base/services/authentication/login/pages/login_page.dart';
-import 'package:flutter_project_base/services/authentication/register/blocs/register_bloc.dart';
-import 'package:flutter_project_base/services/authentication/register/pages/register_page.dart';
-import 'package:flutter_project_base/services/home/pages/home_page.dart';
-import 'package:flutter_project_base/utilities/extensions/timer_formatter.dart';
-import 'package:flutter_project_base/utilities/theme/colors.dart';
-
+import 'package:read_share_box/routers/navigator.dart';
+import 'package:read_share_box/routers/routers.dart';
+import 'package:read_share_box/utilities/theme/colors.dart';
+import 'base/blocs/settings_bloc.dart';
+import 'config/app_states.dart';
 import 'handlers/localization_handler.dart';
-import 'services/my_requests/pages/my_requests_page.dart';
+import 'handlers/shared_handler.dart';
+import 'network/network_handler.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

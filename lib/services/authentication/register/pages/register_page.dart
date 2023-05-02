@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_project_base/services/authentication/register/blocs/register_bloc.dart';
-import 'package:flutter_project_base/utilities/components/custom_btn.dart';
-import 'package:flutter_project_base/utilities/components/custom_page_body.dart';
 
 import '../../../../base/widgets/fields/date_input_field.dart';
 import '../../../../base/widgets/fields/text_input_field.dart';
-import '../../../../utilities/theme/text_styles.dart';
+import '../../../../utilities/components/custom_btn.dart';
+import '../../../../utilities/components/custom_page_body.dart';
+import '../blocs/register_bloc.dart';
 
 class RegisterPage extends StatelessWidget {
   const RegisterPage({super.key});

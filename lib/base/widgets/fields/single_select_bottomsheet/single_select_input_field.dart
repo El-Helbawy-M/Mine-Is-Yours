@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/base/widgets/fields/single_select_bottomsheet/single_select_bottomsheet.dart';
+import 'package:read_share_box/base/widgets/fields/single_select_bottomsheet/single_select_bottomsheet.dart';
 import '../../../../utilities/theme/text_styles.dart';
 import '../../../models/select_option.dart';
 

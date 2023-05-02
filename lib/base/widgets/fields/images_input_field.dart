@@ -2,10 +2,9 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/handlers/image_picker_handler.dart';
-import 'package:image_picker/image_picker.dart';
 
 import '../../../handlers/icon_handler.dart';
+import '../../../handlers/image_picker_handler.dart';
 
 class ImagesListInputField extends StatefulWidget {
   const ImagesListInputField({

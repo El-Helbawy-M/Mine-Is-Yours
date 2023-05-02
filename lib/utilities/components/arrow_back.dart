@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_project_base/handlers/icon_handler.dart';
-import 'package:flutter_project_base/handlers/localization_handler.dart';
+
+import '../../handlers/icon_handler.dart';
+import '../../handlers/localization_handler.dart';
 
 class ArrowBack extends StatelessWidget {
   const ArrowBack({super.key, this.reverse = false, this.color});

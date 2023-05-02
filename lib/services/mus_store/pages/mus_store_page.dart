@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/utilities/components/arrow_back.dart';
-import 'package:flutter_project_base/utilities/components/custom_page_body.dart';
-
+import '../../../utilities/components/arrow_back.dart';
+import '../../../utilities/components/custom_page_body.dart';
 import '../../search/widgets/grid_book_store_card.dart';
 import '../../search/widgets/list_book_store_card.dart';
 import '../../search/widgets/search_appBar.dart';

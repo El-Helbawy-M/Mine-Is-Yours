@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/utilities/components/custom_page_body.dart';
 import '../../../handlers/icon_handler.dart';
 import '../../../utilities/components/arrow_back.dart';
+import '../../../utilities/components/custom_page_body.dart';
 import '../widgets/transaction_card.dart';
 
 class PointsDetailsPage extends StatelessWidget {

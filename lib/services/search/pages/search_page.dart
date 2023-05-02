@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_project_base/config/app_states.dart';
-import 'package:flutter_project_base/services/search/blocs/search_cubit.dart';
+import '../../../config/app_states.dart';
+import '../blocs/search_cubit.dart';
 import '../widgets/grid_book_store_card.dart';
 import '../widgets/list_book_store_card.dart';
 import '../widgets/search_appBar.dart';

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/utilities/components/custom_btn.dart';
-import 'package:flutter_project_base/utilities/components/custom_page_body.dart';
-import 'package:flutter_project_base/utilities/theme/text_styles.dart';
 
 import '../../../../base/widgets/fields/text_input_field.dart';
+import '../../../../utilities/components/custom_btn.dart';
+import '../../../../utilities/components/custom_page_body.dart';
+import '../../../../utilities/theme/text_styles.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});

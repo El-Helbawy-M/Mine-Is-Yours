@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/handlers/icon_handler.dart';
-import 'package:flutter_project_base/services/post_details/pages/book_details_view.dart';
-import 'package:flutter_project_base/services/post_details/widgets/exchange_request_bottomsheet.dart';
-import 'package:flutter_project_base/utilities/components/arrow_back.dart';
-import 'package:flutter_project_base/utilities/components/custom_btn.dart';
-import 'package:flutter_project_base/utilities/components/custom_page_body.dart';
-import 'package:flutter_project_base/utilities/theme/text_styles.dart';
+import '../../../handlers/icon_handler.dart';
 import '../../../routers/navigator.dart';
 import '../../../routers/routers.dart';
-import '../widgets/buy_request_bottomsheet.dart';
+import '../../../utilities/components/arrow_back.dart';
+import '../../../utilities/components/custom_page_body.dart';
+import '../../../utilities/theme/text_styles.dart';
 import '../widgets/information_app_bar.dart';
+import 'book_details_view.dart';
 import 'books_overview_view.dart';
 
 class OwnerPostDetailsPage extends StatefulWidget {

@@ -1,4 +1,4 @@
-import 'package:flutter_project_base/utilities/theme/colors.dart';
+import '../../utilities/theme/colors.dart';
 
 class SettingsModel {
   String lang;

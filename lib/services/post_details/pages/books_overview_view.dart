@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/services/post_details/widgets/info_list_tile.dart';
 
 import '../widgets/info_cards.dart';
+import '../widgets/info_list_tile.dart';
 
 class BookOverView extends StatelessWidget {
   const BookOverView({

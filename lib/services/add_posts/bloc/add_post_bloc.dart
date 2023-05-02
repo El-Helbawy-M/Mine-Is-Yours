@@ -1,11 +1,10 @@
 import 'dart:io';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_project_base/base/models/select_option.dart';
-import 'package:flutter_project_base/base/widgets/fields/location_input_field.dart';
-import 'package:flutter_project_base/config/app_events.dart';
-import 'package:flutter_project_base/debug/log_printer.dart';
 
+import '../../../base/models/select_option.dart';
+import '../../../base/widgets/fields/location_input_field.dart';
+import '../../../config/app_events.dart';
 import '../../../config/app_states.dart';
 
 class AddPostBloc extends Bloc<AppEvents, AppStates> {

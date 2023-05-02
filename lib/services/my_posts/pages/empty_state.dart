@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/base/pages/empty_page.dart';
 
+import '../../../base/pages/empty_page.dart';
 import '../../../routers/navigator.dart';
 import '../../../routers/routers.dart';
 import '../../../utilities/components/custom_btn.dart';

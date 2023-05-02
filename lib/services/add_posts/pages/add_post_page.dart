@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_project_base/config/app_states.dart';
-import 'package:flutter_project_base/debug/log_printer.dart';
-import 'package:flutter_project_base/services/add_posts/pages/payment_details_step.dart';
-import 'package:flutter_project_base/utilities/components/custom_btn.dart';
-import 'package:flutter_project_base/utilities/components/custom_page_body.dart';
+import 'package:read_share_box/services/add_posts/pages/payment_details_step.dart';
 import '../../../config/app_events.dart';
+import '../../../config/app_states.dart';
+import '../../../utilities/components/custom_btn.dart';
+import '../../../utilities/components/custom_page_body.dart';
 import '../bloc/add_post_bloc.dart';
 import '../widgets/indicator_header.dart';
 import 'book_details_step.dart';

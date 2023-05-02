@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/base/widgets/fields/image_input_field.dart';
-import 'package:flutter_project_base/base/widgets/fields/text_input_field.dart';
-import 'package:flutter_project_base/handlers/icon_handler.dart';
-import 'package:flutter_project_base/utilities/components/custom_btn.dart';
 import '../../../../routers/navigator.dart';
+import '../../../base/widgets/fields/image_input_field.dart';
 import '../../../base/widgets/fields/text_descrabtion_input_field.dart';
+import '../../../base/widgets/fields/text_input_field.dart';
+import '../../../handlers/icon_handler.dart';
+import '../../../utilities/components/custom_btn.dart';
 
 class ExchangeRequestBottomSheet extends StatelessWidget {
   const ExchangeRequestBottomSheet({

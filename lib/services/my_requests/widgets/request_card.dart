@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/services/my_requests/widgets/request_info.dart';
+import 'package:read_share_box/services/my_requests/widgets/request_info.dart';
 
 class RequestCard extends StatefulWidget {
   const RequestCard({

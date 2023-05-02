@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/base/widgets/fields/single_select_bottomsheet/single_select_bottomsheet.dart';
-import 'package:flutter_project_base/handlers/icon_handler.dart';
 import '../../../../utilities/theme/text_styles.dart';
+import '../../../handlers/icon_handler.dart';
 
 class LocationInputField extends StatefulWidget {
   const LocationInputField({

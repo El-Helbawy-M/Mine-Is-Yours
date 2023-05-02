@@ -1,10 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/handlers/icon_handler.dart';
-import 'package:flutter_project_base/routers/navigator.dart';
-import 'package:flutter_project_base/utilities/components/custom_btn.dart';
-import 'package:flutter_project_base/utilities/extensions/date_formatter.dart';
-import 'package:flutter_project_base/utilities/theme/text_styles.dart';
+import 'package:read_share_box/utilities/extensions/date_formatter.dart';
+
+import '../../../handlers/icon_handler.dart';
+import '../../../routers/navigator.dart';
+import '../../../utilities/components/custom_btn.dart';
+import '../../../utilities/theme/text_styles.dart';
 
 class DateInputField extends StatefulWidget {
   const DateInputField({

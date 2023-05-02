@@ -1,4 +1,4 @@
-package com.example.flutter_project_base
+package com.read_share.read_share_box
 
 import io.flutter.embedding.android.FlutterActivity
 

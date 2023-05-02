@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/routers/navigator.dart';
-import 'package:flutter_project_base/routers/routers.dart';
-
 import '../../../handlers/icon_handler.dart';
+import '../../../routers/navigator.dart';
+import '../../../routers/routers.dart';
 import '../../../utilities/components/arrow_back.dart';
 import '../../../utilities/components/custom_btn.dart';
 import '../../../utilities/theme/text_styles.dart';

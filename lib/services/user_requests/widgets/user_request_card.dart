@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/handlers/icon_handler.dart';
-import 'package:flutter_project_base/utilities/components/custom_btn.dart';
-import 'package:flutter_project_base/utilities/theme/text_styles.dart';
+import '../../../handlers/icon_handler.dart';
+import '../../../utilities/components/custom_btn.dart';
+import '../../../utilities/theme/text_styles.dart';
 
 class UserRequestCard extends StatefulWidget {
   const UserRequestCard({

@@ -1,8 +1,9 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/handlers/icon_handler.dart';
-import 'package:flutter_project_base/utilities/extensions/timer_formatter.dart';
+import 'package:read_share_box/utilities/extensions/timer_formatter.dart';
 import 'package:video_player/video_player.dart';
+
+import '../icon_handler.dart';
 
 class VideoPlayerView extends StatefulWidget {
   const VideoPlayerView({super.key, required this.type, this.assetPath, this.filePath, this.networkUrl});

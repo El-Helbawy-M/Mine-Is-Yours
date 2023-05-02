@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/debug/log_printer.dart';
 import '../config/api_names.dart';
+import '../debug/log_printer.dart';
 
 class NetworkHandler {
   static NetworkHandler? instance;

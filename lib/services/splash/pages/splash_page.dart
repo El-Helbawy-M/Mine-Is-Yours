@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/utilities/components/custom_page_body.dart';
-import 'package:flutter_project_base/utilities/theme/media.dart';
 
 import '../../../handlers/shared_handler.dart';
 import '../../../routers/navigator.dart';
 import '../../../routers/routers.dart';
+import '../../../utilities/components/custom_page_body.dart';
+import '../../../utilities/theme/media.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

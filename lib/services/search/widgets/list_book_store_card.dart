@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/routers/navigator.dart';
 
+import '../../../routers/navigator.dart';
 import '../../../routers/routers.dart';
 
 class ListBookStoreCardView extends StatefulWidget {

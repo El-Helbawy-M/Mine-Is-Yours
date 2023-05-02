@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/routers/navigator.dart';
-import 'package:flutter_project_base/routers/routers.dart';
-import 'package:flutter_project_base/utilities/theme/media.dart';
-import 'package:flutter_project_base/utilities/theme/text_styles.dart';
 import '../../../base/widgets/subtitle_view.dart';
 import '../widgets/categories_panel.dart';
 import '../widgets/home_appBar.dart';

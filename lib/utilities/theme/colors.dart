@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/utilities/theme/text_styles.dart';
+import 'package:read_share_box/utilities/theme/text_styles.dart';
 
 enum ColorsThemeType { lightTheme, darkTheme }
 

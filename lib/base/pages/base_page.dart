@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/handlers/icon_handler.dart';
-import 'package:flutter_project_base/services/home/pages/home_page.dart';
 
+import '../../handlers/icon_handler.dart';
+import '../../services/home/pages/home_page.dart';
 import '../../services/more/pages/more_page.dart';
 import '../../services/my_posts/pages/my_posts_page.dart';
 import '../../services/search/pages/search_page.dart';

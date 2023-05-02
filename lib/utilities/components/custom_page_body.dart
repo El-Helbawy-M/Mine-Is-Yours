@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/utilities/theme/media.dart';
+
+import '../theme/media.dart';
 
 class CustomPageBody extends StatelessWidget {
   const CustomPageBody({super.key, required this.body, this.appBar, this.floatingActionButton});

@@ -1,7 +1,8 @@
-import 'package:flutter_project_base/handlers/permission_handler.dart';
-import 'package:flutter_project_base/routers/navigator.dart';
-import 'package:flutter_project_base/routers/routers.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
+
+import '../../routers/navigator.dart';
+import '../../routers/routers.dart';
+import '../permission_handler.dart';
 
 class QrScannerHanler {
   Future<String> scanQrCode() async {

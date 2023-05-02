@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/utilities/components/arrow_back.dart';
-import 'package:flutter_project_base/utilities/components/custom_page_body.dart';
-import 'package:flutter_project_base/utilities/theme/media.dart';
-import 'package:flutter_project_base/utilities/theme/text_styles.dart';
 
+import '../../../utilities/components/arrow_back.dart';
+import '../../../utilities/components/custom_page_body.dart';
 import '../widgets/notification_card.dart';
 
 class NotificationsPage extends StatelessWidget {

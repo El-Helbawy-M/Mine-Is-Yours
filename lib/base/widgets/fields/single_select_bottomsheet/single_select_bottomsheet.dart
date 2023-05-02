@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/handlers/icon_handler.dart';
+import '../../../../handlers/icon_handler.dart';
 import '../../../../routers/navigator.dart';
 import '../../../models/select_option.dart';
 import '../../check_box_view.dart';

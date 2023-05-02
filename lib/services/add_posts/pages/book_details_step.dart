@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_project_base/config/app_states.dart';
-import 'package:flutter_project_base/services/add_posts/bloc/add_post_bloc.dart';
 
 import '../../../base/widgets/fields/images_input_field.dart';
 import '../../../base/widgets/fields/text_descrabtion_input_field.dart';
 import '../../../base/widgets/fields/text_input_field.dart';
 import '../../../config/app_events.dart';
+import '../../../config/app_states.dart';
+import '../bloc/add_post_bloc.dart';
 
 class BookDetailsStep extends StatelessWidget {
   const BookDetailsStep({

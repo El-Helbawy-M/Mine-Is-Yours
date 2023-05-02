@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_project_base">
+    package="com.read_share.read_share_box">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:label="flutter_project_base"
+        android:label="Read Share Box"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"

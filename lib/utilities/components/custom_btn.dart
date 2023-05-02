@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_base/utilities/theme/colors.dart';
-import 'package:flutter_project_base/utilities/theme/media.dart';
-import 'package:flutter_project_base/utilities/theme/text_styles.dart';
+import '../theme/media.dart';
+import '../theme/text_styles.dart';
 
 class CustomBtn extends StatelessWidget {
   const CustomBtn({super.key, this.height, this.width, this.borderColor, this.radius, this.text, this.buttonColor, this.textColor, this.onTap, this.icon});

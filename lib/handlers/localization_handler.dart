@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_project_base/debug/log_printer.dart';
+import '../debug/log_printer.dart';
 import '../routers/navigator.dart';
 
 class AppLocale {
